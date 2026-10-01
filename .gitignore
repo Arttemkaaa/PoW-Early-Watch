@@ -1,0 +1,10 @@
+telegram_token
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.log
+.env
+*.env
+__pycache__/
+*.pyc

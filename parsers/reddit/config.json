@@ -1,0 +1,175 @@
+{
+  "max_age_hours": 24,
+  "posts_per_subreddit": 30,
+  "score_threshold": 5,
+  "max_display_signals": 4,
+
+  "subreddits": [
+    "gpumining",
+    "cpumining",
+    "cryptomining",
+    "BitcoinMining",
+    "ASICMiners",
+    "CryptoCurrency",
+    "altcoin",
+    "cryptotechnology"
+  ],
+
+  "signals": [
+    {
+      "name": "launch",
+      "weight": 5,
+      "phrases": [
+        "mainnet launched",
+        "mainnet launch",
+        "mainnet live",
+        "launch today",
+        "launched today",
+        "just launched",
+        "genesis block",
+        "fair launch",
+        "fairlaunch",
+        "mining is live",
+        "mining live",
+        "mining started",
+        "mining begins",
+        "now mineable"
+      ]
+    },
+
+    {
+      "name": "miner",
+      "weight": 4,
+      "phrases": [
+        "new miner",
+        "gpu miner",
+        "cpu miner",
+        "cuda miner",
+        "opencl miner",
+        "asic miner",
+        "miner release",
+        "miner released",
+        "new mining software",
+        "optimized miner",
+        "faster miner"
+      ]
+    },
+
+    {
+      "name": "pool",
+      "weight": 4,
+      "phrases": [
+        "new pool",
+        "mining pool launched",
+        "pool launched",
+        "stratum live",
+        "stratum server",
+        "solo pool",
+        "solo mining"
+      ]
+    },
+
+    {
+      "name": "pow",
+      "weight": 3,
+      "phrases": [
+        "proof of work",
+        "proof-of-work",
+        "pow"
+      ]
+    },
+
+    {
+      "name": "opportunity",
+      "weight": 3,
+      "phrases": [
+        "low difficulty",
+        "difficulty dropped",
+        "difficulty drop",
+        "low network hashrate",
+        "low hashrate",
+        "high profitability",
+        "most profitable",
+        "profitable mining",
+        "block reward increased",
+        "reward increased"
+      ]
+    },
+
+    {
+      "name": "software",
+      "weight": 2,
+      "phrases": [
+        "github",
+        "source code",
+        "open source",
+        "repository",
+        "binary",
+        "wallet release",
+        "node release",
+        "explorer live"
+      ]
+    },
+
+    {
+      "name": "hardware",
+      "weight": 2,
+      "phrases": [
+        "gpu",
+        "cpu",
+        "asic",
+        "nvidia",
+        "amd",
+        "cuda",
+        "opencl",
+        "rocm"
+      ]
+    },
+
+    {
+      "name": "algorithm",
+      "weight": 2,
+      "phrases": [
+        "randomx",
+        "kawpow",
+        "blake3",
+        "sha256",
+        "sha-256",
+        "scrypt",
+        "xelishash",
+        "yespower",
+        "progpow",
+        "ghostrider",
+        "verushash",
+        "cryptonight",
+        "equihash"
+      ]
+    },
+
+    {
+      "name": "merged",
+      "weight": 3,
+      "phrases": [
+        "merge mining",
+        "merged mining",
+        "dual mining",
+        "auxpow",
+        "mine simultaneously"
+      ]
+    }
+  ],
+
+  "negative_signals": [
+    {
+      "weight": -4,
+      "phrases": [
+        "cloud mining investment",
+        "referral code",
+        "casino",
+        "staking only",
+        "presale only",
+        "airdrop only"
+      ]
+    }
+  ]
+}
